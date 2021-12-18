@@ -1,0 +1,60 @@
+#header {
+  width: 100%;
+  height: 56px;
+  background: url("../img/header-bg.jpg") repeat-x;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header-logo {
+  display: inline-block;
+  height: 55px;
+}
+.header-logo a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.search-box {
+  width: 325px;
+  position: relative;
+  box-shadow: inset 1px 1px 1px rgb(0 0 0 / 40%),
+    1px 1px 0 rgb(255 255 255 / 15%);
+  background-color: #303137;
+  border-radius: 50px;
+  margin-left: 30px;
+}
+input[name="search-value"] {
+  width: 100%;
+  outline: none;
+  border: 1px;
+  color: #9f9f9f;
+  font-size: 14px;
+  background-color: transparent;
+  padding: 10px 40px 10px 16px;
+}
+#submit {
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+#submit img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
